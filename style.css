@@ -1,0 +1,40 @@
+h1{
+  border-bottom: 1px solid gray;
+  padding:20px;
+  text-align: center;
+}
+h2{
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  padding:20px;
+  margin-bottom:0;
+  text-align: center;
+
+}
+h3{
+  border-right: 1px solid gray;
+  padding:10px;
+  margin:0px;
+  width:400px;
+}
+
+
+#Iam{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  margin:0;
+
+}
+#ok{
+  padding-left: 20px;
+}
+@media(max-width:800px){
+  #Iam{
+    display: block;
+  }
+  h3{
+    border-right:none;
+  }
+
+
+}
