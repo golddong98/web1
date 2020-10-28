@@ -38,3 +38,10 @@ h3{
 
 
 }
+  #first{
+    display: grid;
+    grid-template-columns: 140px 1fr;
+  }
+  .former{
+    color:gray;
+  }
