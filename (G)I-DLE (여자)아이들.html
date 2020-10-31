@@ -8,6 +8,35 @@
 
   <body>
     <h1>(G)I-DLE</h1>
+    <input type="button" value="night" onclick="
+    if(this.value === 'night'){
+      document.body.style.backgroundColor = 'black';
+      document.body.style.color = 'white';
+      this.value = 'day';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'powderblue';
+        i = i + 1;
+      }
+
+    }else{
+      document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
+      this.value = 'night';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'blue';
+        i = i + 1;
+      }
+
+    }
+
+
+    ">
     <p> <strong>Members</strong> Miyeon(미연),Minnie(민니),Soojin(수진),Soyeon(소연),Yuqi(우기),Shuhua(슈화)
     </p>
     <p> <strong>Associated acts</strong> United Cube (Cube Entertainment)
