@@ -33,6 +33,17 @@
     }
   }
 }
+
+   var Sites = ["Instagram", " Twitter", " Facebook", " FanCafe", " Youtube", " Tiktok", " V Live"];
+   var Siteslink = ["https://www.instagram.com/official_g_i_dle/",
+                    "https://twitter.com/G_I_DLE",
+                    "https://www.facebook.com/G.I.DLE.CUBE",
+                    "http://cafe.daum.net/cube-g-i-dle",
+                    "https://www.youtube.com/gidleofficial",
+                    "https://www.tiktok.com/@official_gidle",
+                    "https://www.vlive.tv/video/219018?channelCode=CE2621"
+ ];
+
   </script>
 
   <body>
@@ -47,13 +58,13 @@
     <p> <strong>Associated acts</strong> United Cube (Cube Entertainment)
     </p>
     <p> <strong>Sites</strong>
-      <a href="https://www.instagram.com/official_g_i_dle/">Instagram</a>
-      <a href="https://twitter.com/G_I_DLE">Twitter</a>
-      <a href="https://www.facebook.com/G.I.DLE.CUBE">Facebook</a>
-      <a href="http://cafe.daum.net/cube-g-i-dle">FanCafe</a>
-      <a href="https://www.youtube.com/gidleofficial">Youtube</a>
-      <a href="https://www.tiktok.com/@official_gidle">Tiktok</a>
-      <a href="https://www.vlive.tv/video/219018?channelCode=CE2621">V Live</a>
+      <script>
+      var i = 0;
+      while(i < Sites.length){
+        document.write('<a href="'+Siteslink[i]+'">'+Sites[i]+'</a>')
+        i = i + 1;
+      }
+      </script>
     </p>
     <h2>Albums & Singles</h2>
     <div id="Iam">
