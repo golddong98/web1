@@ -5,62 +5,30 @@
    <meta charset="utf-8">
    <link rel="stylesheet" href="style.css">
   </head>
+  <script src="colors.js">
+
+  </script>
+
   <script>
-  var Links = {
-    setColor:function (color){
-      var alist = document.querySelectorAll('a');
-      var i = 0;
-      while(i < alist.length){
-        alist[i].style.color = color;
-        i = i + 1;
-      }
-    }
-  }
-  var Body = {
-    setColor: function (color){
-      document.body.style.color = color;
-    },
-    setBackgroundColor:function (color){
-      document.body.style.backgroundColor = color;
-    }
-  }
 
-  function nightdayHandler(self){
-  var target = document.body;
-  if(self.value === 'night'){
-    Body.setBackgroundColor('black');
-    Body.setColor('white');
-    self.value = 'day';
-
-    Links.setColor('powderblue');
-
-  }else{
-    Body.setBackgroundColor('white');
-    Body.setColor('black');
-    self.value = 'night';
-
-    Links.setColor('blue');
-  }
-}
-
-   var Sites = ["Instagram", " Twitter", " Facebook", " FanCafe", " Youtube", " Tiktok", " V Live"];
-   var Siteslink = ["https://www.instagram.com/official_g_i_dle/",
-                    "https://twitter.com/G_I_DLE",
-                    "https://www.facebook.com/G.I.DLE.CUBE",
-                    "http://cafe.daum.net/cube-g-i-dle",
-                    "https://www.youtube.com/gidleofficial",
-                    "https://www.tiktok.com/@official_gidle",
-                    "https://www.vlive.tv/video/219018?channelCode=CE2621"
- ];
-  var Iam = ["Latata","$$$(달라)","MAZE","DON'T TEXT ME","What's in your house?(알고 싶어)","Hear me(들어줘요)","Latata(English Ver.)"];
-  var Iamlink = ["https://www.youtube.com/watch?v=9mQk7Evt6Vs&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4",
-                 "https://www.youtube.com/watch?v=sTnQ24z9hIw&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=2",
-                 "https://www.youtube.com/watch?v=klKKrmRY2R8&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=3",
-                 "https://www.youtube.com/watch?v=9qXLfXLluQI&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=4",
-                 "https://www.youtube.com/watch?v=ehXwFRCvTa8&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=5",
-                 "https://www.youtube.com/watch?v=OVivuUWG9Qs&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=6",
-                 "https://www.youtube.com/watch?v=HnvWJehjYQA"
-];
+     var Sites = ["Instagram", " Twitter", " Facebook", " FanCafe", " Youtube", " Tiktok", " V Live"];
+     var Siteslink = ["https://www.instagram.com/official_g_i_dle/",
+                      "https://twitter.com/G_I_DLE",
+                      "https://www.facebook.com/G.I.DLE.CUBE",
+                      "http://cafe.daum.net/cube-g-i-dle",
+                      "https://www.youtube.com/gidleofficial",
+                      "https://www.tiktok.com/@official_gidle",
+                      "https://www.vlive.tv/video/219018?channelCode=CE2621"
+   ];
+    var Iam = ["Latata","$$$(달라)","MAZE","DON'T TEXT ME","What's in your house?(알고 싶어)","Hear me(들어줘요)","Latata(English Ver.)"];
+    var Iamlink = ["https://www.youtube.com/watch?v=9mQk7Evt6Vs&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4",
+                   "https://www.youtube.com/watch?v=sTnQ24z9hIw&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=2",
+                   "https://www.youtube.com/watch?v=klKKrmRY2R8&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=3",
+                   "https://www.youtube.com/watch?v=9qXLfXLluQI&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=4",
+                   "https://www.youtube.com/watch?v=ehXwFRCvTa8&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=5",
+                   "https://www.youtube.com/watch?v=OVivuUWG9Qs&list=OLAK5uy_kgLmyYTSooG68u88n8pdWfON58AuKakn4&index=6",
+                   "https://www.youtube.com/watch?v=HnvWJehjYQA"
+  ];
   </script>
 
   <body>
